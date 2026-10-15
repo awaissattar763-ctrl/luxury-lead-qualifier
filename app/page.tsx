@@ -52,7 +52,7 @@ const PRESETS: { label: string; data: LeadInput }[] = [
       financing: "pre-approved",
       area: "Dubai Marina",
       message:
-        "We're pre-approved and looking at 2-bed apartments in Dubai Marina over the next few months.",
+        "We're looking at 2-bed apartments in Dubai Marina over the next few months, still comparing a few areas.",
     },
   },
   {

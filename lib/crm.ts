@@ -143,12 +143,12 @@ export function sampleLeads(): Lead[] {
         financing: "pre-approved",
         area: "Dubai Marina",
         message:
-          "We're pre-approved and looking at 2-bed apartments in Dubai Marina over the next few months.",
+          "We're looking at 2-bed apartments in Dubai Marina over the next few months, still comparing a few areas.",
       },
       180,
       [
         ["webhook", "POST /lead-intake → 200 OK (0.3s)"],
-        ["scoring", "Score 60/100 → WARM (budget +25, intent +20, pre-approved +10, area +5, base 10, timeline 0)"],
+        ["scoring", "Score 70/100 → WARM (budget +25, intent +20, pre-approved +10, area +5, base 10, timeline 0)"],
         ["crm", "Inserted into leads table (Supabase)"],
         ["follow-up", "Scheduled: Day 0 confirmation, Day 2 curated listings, Day 7 check-in call"],
         ["alert", "Skipped — score below 75, no agent alert"],
